@@ -55,7 +55,7 @@ app.delete("/data/:id", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Hellow World!");
+  res.send("Hello World!!!!");
 });
 
 app.listen(port, () => {
